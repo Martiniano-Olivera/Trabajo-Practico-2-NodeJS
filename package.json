@@ -1,0 +1,19 @@
+{
+  "name": "open-weather-api-clima",
+  "version": "1.0.0",
+  "description": "Trabajo practico nº2 de nodejs con la api de openweather para el clima",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martiniano-Olivera/Trabajo-Practico-2-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martiniano-Olivera/Trabajo-Practico-2-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Martiniano-Olivera/Trabajo-Practico-2-NodeJS#readme"
+}

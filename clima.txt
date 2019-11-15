@@ -1,0 +1,49 @@
+gualeguay 
+        15.59
+        1013 
+        77 
+        gualeguay 
+        15.59
+        1013 
+        77 
+        gualeguay 
+        15.59
+        1013 
+        77 
+        gualeguay 
+        15.59
+        1013 
+        77 
+        gualeguay 
+        15.59
+        1013 
+        77 
+        gualeguay 
+        15.59
+        1013 
+        77 
+        gualeguay 
+        77 
+        1013 
+        15.59
+        gualeguay 
+        77 
+        1013 
+        15.59
+        
+            $ {
+                ciudad.ciudad
+            }
+            $ {
+                ciudad.temp
+            }
+            $ {
+                ciudad.presion
+            }
+            $ {
+                ciudad.humedad
+            }
+            $ {
+                ''
+            }
+            

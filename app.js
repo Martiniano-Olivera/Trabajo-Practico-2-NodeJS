@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 const lugar = require('./lugar/lugar');
 const clima = require('./clima/clima');
 const ciudadBD = require('./db');
@@ -24,16 +26,28 @@ const getInfo = async (direccion) => {
 
 function avc(ciudad) {
     console.log("Localidad : " + ciudad.ciudad);
-    console.log("Temperatura : " + ciudad.temp);
+    console.log(`Temperatura :   ${ciudad.humedad}º`);
     console.log("Presión : " + ciudad.presion);
-    console.log("Humedad : " + ciudad.humedad);
+    console.log(`Humedad : ${ciudad.temp} %`);
 
     fs.appendFile('clima.txt',
-        `${ciudad.ciudad} 
-        ${ciudad.temp} 
-        ${ciudad.presion} 
-        ${ciudad.humedad}
-        ${''}`,
+        `
+            $ {
+                ciudad.ciudad
+            }
+            $ {
+                ciudad.temp
+            }
+            $ {
+                ciudad.presion
+            }
+            $ {
+                ciudad.humedad
+            }
+            $ {
+                ''
+            }
+            `,
         (error) => {
             if (error) throw error;
 
